@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="{{url_for('result')}}" method="post" >
+        <div class="form-group">
+          <label for="license_key"> License Key :  </label><br />
+          <input type="text" placeholder="Enter The License Key:  " id="Key" name="Key"></input>
+          <button type="submit"  value="Login" class="btn btn-dark mt-4"> Login </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Result Page</title>
+  </head>
+  <body>
+    <div class="content-container">
+      <h2>{{ Key }}</h2>
+    </div>
+  </body>
+</html>
